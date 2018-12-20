@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <com.example.zhangjing20181220.customview.HeadView
+        android:id="@+id/headView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.zhangjing20181220.customview.HeadView>
+
+     <com.example.zhangjing20181220.customview.CustomText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginLeft="10dp"
+         android:text="最近搜索"
+         android:textSize="25sp"
+         app:textColor="@color/colorGray"
+         />
+    <com.example.zhangjing20181220.customview.FlowView
+        android:id="@+id/flow_view_near"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        ></com.example.zhangjing20181220.customview.FlowView>
+
+    <com.example.zhangjing20181220.customview.CustomText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="猜你想找"
+        android:textSize="25sp"
+        app:textColor="@color/colorGray"
+        />
+    <com.example.zhangjing20181220.customview.FlowView
+        android:id="@+id/flow_view_last"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        ></com.example.zhangjing20181220.customview.FlowView>
+</LinearLayout>
