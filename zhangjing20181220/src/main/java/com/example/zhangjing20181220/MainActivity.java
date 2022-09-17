@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setPadding(10,10,10,10);
                 flowView.addView(textView);
                 //提交测试
+                //哈哈，我更新了
             }
         });
         getFlow();
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         headView = findViewById(R.id.headView);
         flowView = findViewById(R.id.flow_view_near);
         flowView_last=findViewById(R.id.flow_view_last);
+        //张静更新代码了，修改了bug
     }
     private void getFlow(){
         for (int i=0;i<str.length;i++){
@@ -56,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setTextSize(18);
             textView.setBackgroundResource(R.drawable.shape_text);
             textView.setPadding(10,10,10,10);
+            //更改了bug
             flowView_last.addView(textView);
         }
     }
