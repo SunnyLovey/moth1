@@ -24,7 +24,7 @@ import java.util.Map;
 
 public class ShopActivity extends AppCompatActivity implements IView{
     private IPresenterImpl iPresenter;
-    //mastar 更改的，嘿嘿
+    //mastar，嘿嘿
     private RecyclerView recyclerView_list;
     private RecyclerViewListAdapter adapter;
     private CheckBox checkBox_all;

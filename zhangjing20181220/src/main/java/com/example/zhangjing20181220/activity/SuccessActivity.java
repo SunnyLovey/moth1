@@ -27,7 +27,7 @@ import java.util.Map;
 
 public class SuccessActivity extends AppCompatActivity implements IView{
     private IPresenterImpl iPresenter;
-    //哈哈老六，哈哈
+    //2345
     private ImageView imageView_search;
     private EditText editText_name;
     private TextView textView_zh,textView_xl,textView_price;
@@ -47,7 +47,7 @@ public class SuccessActivity extends AppCompatActivity implements IView{
         mPage=1;
         imageView_search.setOnClickListener(new View.OnClickListener() {
 
-
+            //zj666
 
             @Override
             public void onClick(View v) {
