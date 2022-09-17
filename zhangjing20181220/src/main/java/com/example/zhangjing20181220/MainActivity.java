@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setText(name);
                 textView.setTextColor(Color.BLACK);
                 textView.setTextSize(18);
+                //textview.settextsize(345);
                 textView.setBackgroundResource(R.drawable.shape_text);
                 textView.setPadding(10,10,10,10);
                 flowView.addView(textView);
@@ -56,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(str[i]);
             textView.setTextColor(Color.BLACK);
             textView.setTextSize(18);
+//          textView.setTextSize(18);
             textView.setBackgroundResource(R.drawable.shape_text);
             textView.setPadding(10,10,10,10);
             //更改了bug
