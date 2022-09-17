@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 textView.setBackgroundResource(R.drawable.shape_text);
                 textView.setPadding(10,10,10,10);
                 flowView.addView(textView);
+                //提交测试
             }
         });
         getFlow();
