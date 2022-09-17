@@ -24,13 +24,13 @@ import java.util.Map;
 
 public class ShopActivity extends AppCompatActivity implements IView{
     private IPresenterImpl iPresenter;
-    //mastar，嘿嘿
+    //mastar，嘿嘿，开发新功能
     private RecyclerView recyclerView_list;
     private RecyclerViewListAdapter adapter;
     private CheckBox checkBox_all;
     private TextView textView;
     private List<ShopBean.Data> data1;
-
+    //开发新功能
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
