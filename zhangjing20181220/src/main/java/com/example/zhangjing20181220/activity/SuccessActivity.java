@@ -47,7 +47,7 @@ public class SuccessActivity extends AppCompatActivity implements IView{
         mPage=1;
         imageView_search.setOnClickListener(new View.OnClickListener() {
 
-            //zj666
+            //zj666,终于改了这个bug
 
             @Override
             public void onClick(View v) {
