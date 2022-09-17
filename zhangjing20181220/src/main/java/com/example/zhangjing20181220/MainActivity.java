@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initView(savedInstanceState);
-
+        //master : uodate 456
         headView.setOnCallBack(new HeadView.CallBack() {
             @Override
             public void getEdit(String name) {
